@@ -43,7 +43,7 @@ export default function Starfield() {
             ctx.fillStyle = "black"
             ctx.fillRect(0, 0, canvas.width, canvas.height)
 
-            for (let s of stars) {
+            for (const s of stars) {
                 s.brightness += s.twinkleSpeed * s.twinkleDirection
                 if (s.brightness > 1) {
                     s.brightness = 1
