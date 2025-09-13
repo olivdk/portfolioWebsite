@@ -20,7 +20,7 @@ export default function Page() {
      <div className="relative flex items-center justify-center h-full"/>
      
      <main className="grid-container h-screen fixed inset-3 -z-10">
-      <div className="">
+      <div>
         <Card className="bg-zinc-950 text-white border-zinc-900 py-6">
           <CardContent className="flex flex-col items-left space-y-4">
             <div>
@@ -39,6 +39,18 @@ export default function Page() {
                 <Button variant="outline" onClick = {() => window.open("https://github.com/olivdk", "_blank")}> <AiFillGithub/> Github </Button>
               </div>
             </div>
+          </CardContent>
+        </Card>
+        <Card className="bg-zinc-950 text-white border-zinc-900 py-6 mt-3">
+          <CardContent className="flex flex-col items-left space-y-4">
+            <h1 className ="font-mono scroll-m-20 text-left text-m font-bold tracking-tight text-balance">My Experience</h1>
+            <hr/>
+            <h2 className="font-mono text-s font-semibold">University:</h2>
+            <h6 className="font-mono text-xs">Current: Math 32A, </h6>
+            <h2 className="font-mono text-s font-semibold">APs/CC Coursework:</h2>
+            <h6 className="font-mono text-xs">
+              AP Biology, AP Literature, AP Calculus AB, AP Calculus BC, AP 2D Art, AP Art History, AP Spanish Language & Culture, AP Physics C Mechanics + Electricity & Magnetism, Microeconomics, Java Programming
+            </h6>
           </CardContent>
         </Card>
       </div>
@@ -68,7 +80,6 @@ export default function Page() {
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
-
             </div>
           </CardContent>
         </Card>
