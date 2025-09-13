@@ -69,6 +69,8 @@ export default function Page() {
                     <p className="font-mono">
                       Language: C++ <br/> Concepts: Basic game design, arrays, CLI interaction, Data Analysis <br/> <br/> Basic CLI blackjack game that simulates standard gameplay mechanics with real decks. Planning to create a card counting algorithim that analyzes results and outputs simulated game information to a webpage.
                     </p>
+                    <br/>
+                    <a className ="font-mono text-s underline" href="https://github.com/olivdk/blackJack">Github repo</a>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-2">
