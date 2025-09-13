@@ -36,7 +36,7 @@ export default function Page() {
               <br></br>
               <div className="flex justify-center space-x-6 mt-8">
                 <Button variant="outline" onClick = {() => window.open("https://www.instagram.com/olivdk.07/", "_blank")}> <AiFillInstagram /> Instagram </Button>
-                <Button variant="outline" onClick = {() => window.open("https://github.com/rocc7922", "_blank")}> <AiFillGithub/> Github </Button>
+                <Button variant="outline" onClick = {() => window.open("https://github.com/olivdk", "_blank")}> <AiFillGithub/> Github </Button>
               </div>
             </div>
           </CardContent>
