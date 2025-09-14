@@ -45,7 +45,6 @@ export default function Page() {
         </Card>
         <Card className="bg-zinc-950 text-white border-zinc-900 py-6 mt-3">
           <CardContent className="flex flex-col items-left space-y-4">
-            <h1 className ="font-mono scroll-m-20 text-left text-m font-bold tracking-tight text-balance"></h1>
             <div className="flex gap-2">
               <span className="font-mono scroll-m-20 text-left text-m font-bold tracking-tight text-balance">My</span>
               <Typewriter text=" Experience" />
@@ -89,6 +88,13 @@ export default function Page() {
                 </AccordionItem>
               </Accordion>
             </div>
+          </CardContent>
+        </Card>
+        <Card className="bg-zinc-950 text-white border-zinc-900 py-3 mt-3">
+          <CardContent className="flex flex-row items-left">
+            <span className="font-mono text-s text-purple-500 drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] font-bold">Contact @&nbsp;</span>
+            <h4 className="font-mono text-s">olivervanderkouwe@gmail.com &&nbsp;</h4>
+            <a className ="font-mono text-s underline" href="https://www.linkedin.com/in/oliver-van-der-kouwe-a58501276/">Linkedin</a>
           </CardContent>
         </Card>
       </div>
