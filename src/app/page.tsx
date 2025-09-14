@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/accordion"
 import Starfield from "@/components/Starfield"
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai"
+import Typewriter from "@/components/Typewriter";
 
 export default function Page() {
   return (
@@ -26,6 +27,7 @@ export default function Page() {
             <div>
               <h1 className ="font-mono scroll-m-20 text-left text-xl font-extrabold tracking-tight text-balance">Oliver van der Kouwe</h1>
               <h2 className ="font-mono scroll-m-20 border-b pb-2 text-l font-semibold tracking-tight first:mt-0">Math of Computation @ UCLA</h2>
+              
               <br></br>
               <Badge className="outline mr-2">Bay Area</Badge>
               <Badge className="outline ">Los Angeles</Badge>
@@ -43,7 +45,11 @@ export default function Page() {
         </Card>
         <Card className="bg-zinc-950 text-white border-zinc-900 py-6 mt-3">
           <CardContent className="flex flex-col items-left space-y-4">
-            <h1 className ="font-mono scroll-m-20 text-left text-m font-bold tracking-tight text-balance">My Experience</h1>
+            <h1 className ="font-mono scroll-m-20 text-left text-m font-bold tracking-tight text-balance"></h1>
+            <div className="flex gap-2">
+              <span className="font-mono scroll-m-20 text-left text-m font-bold tracking-tight text-balance">My</span>
+              <Typewriter text=" Experience" />
+            </div>
             <hr/>
             <h2 className="font-mono text-s font-semibold">University:</h2>
             <h6 className="font-mono text-xs">Current: Math 32A, </h6>
