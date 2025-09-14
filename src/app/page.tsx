@@ -94,7 +94,7 @@ export default function Page() {
           <CardContent className="flex flex-row items-left">
             <span className="font-mono text-s text-purple-500 drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] font-bold">Contact @&nbsp;</span>
             <h4 className="font-mono text-s">olivervanderkouwe@gmail.com &&nbsp;</h4>
-            <a className ="font-mono text-s underline" href="https://www.linkedin.com/in/oliver-van-der-kouwe-a58501276/">Linkedin</a>
+            <a className ="font-mono text-s underline fondt-bold" href="https://www.linkedin.com/in/oliver-van-der-kouwe-a58501276/">Linkedin</a>
           </CardContent>
         </Card>
       </div>
