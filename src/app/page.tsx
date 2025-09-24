@@ -58,6 +58,12 @@ export default function Page() {
             </h6>
           </CardContent>
         </Card>
+        <Card className="bg-zinc-950 text-white border-zinc-900 py-6 mt-3">
+          <CardContent className="flex flex-col items-left space-y-4">
+            <span className="font-mono text-s text-purple-500 drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] font-bold">Photography @ &nbsp;</span>
+            <Button variant="outline" onClick = {() => window.open("https://olivdk.github.io", "_blank")}> My Portfolio </Button>
+          </CardContent>
+        </Card>
       </div>
       <div className="ml-5">
 
